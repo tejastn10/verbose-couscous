@@ -25,3 +25,7 @@ Hey, Coder keep learning to become awesome
 An array can hold several values under one name. Array naming is the same as variables naming. An array is initialized by assign space-delimited values enclosed in ()
 The total number of elements in the array is referenced by ${#arrayname[@]}
 The array elements can be accessed with their numeric index. The index of the first element is 0.
+
+### Operators
+
+Simple arithmetics on variables can be done using the arithmetic expression: $((expression))
