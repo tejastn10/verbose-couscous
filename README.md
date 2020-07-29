@@ -29,3 +29,7 @@ The array elements can be accessed with their numeric index. The index of the fi
 ### Operators
 
 Simple arithmetics on variables can be done using the arithmetic expression: $((expression))
+
+### String
+
+The shell allows some common string operations which can be very useful for script writing.
