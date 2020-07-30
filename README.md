@@ -89,3 +89,10 @@ while [ condition ]
 do
  command(s)...
 done
+
+#### Until Loop
+
+until [ condition ]
+do
+ command(s)...
+done
