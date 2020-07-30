@@ -6,7 +6,7 @@ Basic code snippets for learning shell programming.
 
 ### Hello World
 
-run with chmod +x HelloWorld.sh
+run with chmod +x [filename]
 
 ### Variables
 
