@@ -33,3 +33,32 @@ Simple arithmetics on variables can be done using the arithmetic expression: $((
 ### String
 
 The shell allows some common string operations which can be very useful for script writing.
+
+### Decision
+
+#### If Statement
+
+if [ expression ]; then
+code if 'expression' is true
+fi
+
+#### Types of Numeric Comparison
+
+comparison    Evaluated to true when
+$a -lt $b    $a < $b
+$a -gt $b    $a > $b
+$a -le $b    $a <= $b
+$a -ge $b    $a >= $b
+$a -eq $b    $a is equal to $b
+$a -ne $b    $a is not equal to $b
+
+#### Types of String Comparison
+
+comparison    Evaluated to true when
+"$a" = "$b"     $a is the same as $b
+"$a" == "$b"    $a is the same as $b
+"$a" != "$b"    $a is different from $b
+-z "$a"         $a is empty
+
+whitespace around = is required
+use "" around string variables to avoid shell expansion of special characters as *
