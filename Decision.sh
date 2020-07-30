@@ -8,3 +8,11 @@ elif [ "$NAME" = "Coder" ]; then
 else
   echo "You can be anything you want"
 fi
+
+mycase=1
+case $mycase in
+    1) echo "You are Awesome";;
+    2) echo "You will Win!!";;
+    3) echo "You can do it!";;
+    4) exit
+esac
