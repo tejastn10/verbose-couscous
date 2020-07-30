@@ -73,3 +73,12 @@ case "$variable" in
         command...
     ;;
 esac
+
+### Loops
+
+#### For Loop
+
+for arg in [list]
+do
+ command(s)...
+done
