@@ -82,3 +82,10 @@ for arg in [list]
 do
  command(s)...
 done
+
+#### While Loop
+
+while [ condition ]
+do
+ command(s)...
+done
