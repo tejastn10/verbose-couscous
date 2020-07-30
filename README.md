@@ -100,3 +100,9 @@ done
 #### Special
 
 Break and Continue in Loops
+
+### Funtions
+
+function_name {
+  command...
+}
