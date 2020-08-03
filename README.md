@@ -140,3 +140,11 @@ function_name {
 - $! - The process number of the last background command.|
 
 ***
+
+### Trap Command
+
+It often comes the situations that you want to catch a special signal/interruption/user input in your script to prevent the unpredictables.
+
+Trap is your command to try:
+
+- trap < arg/function > < signal >
