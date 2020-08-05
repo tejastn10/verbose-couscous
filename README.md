@@ -171,3 +171,10 @@ By default pipelines redirects only the standard output, if you want to include 
 In the simplest terms, grep (global regular expression print) will search input files for a search
 string, and print the lines that match it.
 
+### SED
+
+#### sed = stream editor
+
+sed performs basic text transformations on an input stream (a file or input from a pipeline) in a
+single pass through the stream, so it is very efficient.
+sed can be used at the command-line, or within a shell script, to edit a file non-interactively.
