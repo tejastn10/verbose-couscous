@@ -149,12 +149,16 @@ Trap is your command to try:
 
 - trap < arg/function > < signal >
 
+***
+
 ### File Testing
 
 The command looks like the following
 
 - -< command > [filename]
 - [filename1] -< command > [filename2]
+
+***
 
 ### Pipelines
 
@@ -164,12 +168,16 @@ Pipelines, often called pipes, is a way to chain commands and connect output fro
 
 By default pipelines redirects only the standard output, if you want to include the standard error you need to use the form |& which is a short hand for 2>&1 |
 
+***
+
 ### GREP
 
 #### grep = global regular expression print
 
 In the simplest terms, grep (global regular expression print) will search input files for a search
 string, and print the lines that match it.
+
+***
 
 ### SED
 
@@ -178,3 +186,5 @@ string, and print the lines that match it.
 sed performs basic text transformations on an input stream (a file or input from a pipeline) in a
 single pass through the stream, so it is very efficient.
 sed can be used at the command-line, or within a shell script, to edit a file non-interactively.
+
+***
