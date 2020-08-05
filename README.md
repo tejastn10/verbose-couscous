@@ -148,3 +148,10 @@ It often comes the situations that you want to catch a special signal/interrupti
 Trap is your command to try:
 
 - trap < arg/function > < signal >
+
+### File Testing
+
+The command looks like the following
+
+- -< command > [filename]
+- [filename1] -< command > [filename2]
