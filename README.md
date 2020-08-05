@@ -163,3 +163,11 @@ Pipelines, often called pipes, is a way to chain commands and connect output fro
 > command1 | command2
 
 By default pipelines redirects only the standard output, if you want to include the standard error you need to use the form |& which is a short hand for 2>&1 |
+
+### GREP
+
+#### grep = global regular expression print
+
+In the simplest terms, grep (global regular expression print) will search input files for a search
+string, and print the lines that match it.
+
